@@ -1,3 +1,9 @@
+# revision 18725
+# category Package
+# catalog-ctan /macros/latex/contrib/hepthesis
+# catalog-date 2010-06-03 14:28:33 +0200
+# catalog-license lppl
+# catalog-version 1.4.3
 Name:		texlive-hepthesis
 Version:	1.4.3
 Release:	1
@@ -72,6 +78,7 @@ scrbook, from the KOMA-Script bundle.
 %doc %{_texmfdistdir}/doc/latex/hepthesis/hepthesis.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/hepthesis/Makefile
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -82,3 +89,5 @@ scrbook, from the KOMA-Script bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
