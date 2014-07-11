@@ -6,7 +6,7 @@
 # catalog-version 1.4.3
 Name:		texlive-hepthesis
 Version:	1.4.3
-Release:	7
+Release:	8
 Summary:	A class for academic reports, especially PhD theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hepthesis
