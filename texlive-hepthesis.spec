@@ -1,6 +1,6 @@
 Name:		texlive-hepthesis
 Version:	46054
-Release:	1
+Release:	2
 Summary:	A class for academic reports, especially PhD theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hepthesis
