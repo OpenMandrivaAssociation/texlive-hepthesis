@@ -3,7 +3,7 @@ Version:	46054
 Release:	2
 Summary:	A class for academic reports, especially PhD theses
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hepthesis
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hepthesis
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hepthesis.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hepthesis.doc.r%{version}.tar.xz
